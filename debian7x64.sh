@@ -288,6 +288,7 @@ echo "OpenVPN  : TCP Port 55 (client config : http://$myip:8090/client.tar)" | l
 echo "Timezone : Asia/Jakarta"| lolcat
 echo "Fail2Ban : [on]"| lolcat
 echo "Power By : YUSUF-ARDIANSYAH"| lolcat
+echo "Telpon   : 082139743432"| lolcat  
 echo "PIN BBM  : yu-suf " | lolcat
 echo "Telegram : @ScriptVps"| lolcat
 echo ""

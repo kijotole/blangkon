@@ -12,7 +12,7 @@ if [ $USER != 'root' ]; then
 	exit
 fi
 echo "
-AUTOSCRIPT BY YUSUF ARDIANSYAH
+AUTOSCRIPT BY YUSUF-ARDIANSYAH
 
 PLEASE CANCEL ALL PACKAGE POPUP
 
@@ -277,7 +277,7 @@ rm ./debian7x64.sh
 
 #clear
 echo "========================================"  
-echo "Service Autoscript VPS YUSUF ARDIANSYAH" | lolcat 
+echo "Service Autoscript VPS YUSUF-ARDIANSYAH" | lolcat 
 echo "----------------------------------------" | lolcat
 echo ""  | tee -a log-install.txt
 echo "Webmin   : http://$myip:10000/" | lolcat
@@ -287,7 +287,7 @@ echo "Dropbear : 443, 109"| lolcat
 echo "OpenVPN  : TCP Port 55 (client config : http://$myip:8090/client.tar)" | lolcat
 echo "Timezone : Asia/Jakarta"| lolcat
 echo "Fail2Ban : [on]"| lolcat
-echo "Power By : YUSUF ARDIANSYAH"| lolcat
+echo "Power By : YUSUF-ARDIANSYAH"| lolcat
 echo "PIN BBM  : yu-suf " | lolcat
 echo "Telegram : @ScriptVps"| lolcat
 echo ""
@@ -297,7 +297,7 @@ echo "Tambahan Script: Otomatis Reboot 24 Jam sekali" | lolcat
 echo "----------------------------------------"| lolcat
 echo "LOG INSTALL  --> /root/log-install.txt"| lolcat
 echo "----------------------------------------"| lolcat
-echo " CREATED BY YUSUF ARDIANSYAH - JUAL AKUN SSH - VPS - SCRIPT INSTALLER PREMIUM"| lolcat
+echo " CREATED BY YUSUF-ARDIANSYAH - JUAL AKUN SSH - VPS - SCRIPT INSTALLER PREMIUM"| lolcat
 echo "========================================"  | tee -a log-install.txt
 echo "      SILAHKAN REBOOT VPS ANDA !" | lolcat
 echo "========================================"  | tee -a log-install.txt

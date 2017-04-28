@@ -19,7 +19,7 @@ exp="$(chage -l $uname | grep "Account expires" | awk -F": " '{print $2}')"
 echo -e "$pass\n$pass\n"|passwd $uname &> /dev/null
 echo -e ""| lolcat
 echo -e "|      Informasi Akun Baru SSH      |" | boxes -d dog | lolcat
-echo -e "============-YUSUF-ARDIANSYAH-============" | lolcat
+echo -e "==========================================" | lolcat
 echo -e "     Host: $myip" | lolcat
 echo -e "     Username: $uname" | lolcat
 echo -e "     Password: $pass                     " | lolcat
@@ -35,7 +35,6 @@ echo -e "   DI LARANG:                            "| lolcat
 echo -e "   HACKING-DDOS-PHISING-SPAM-TORENT      " | lolcat
 echo -e "   CARDING-CRIMINAL CYBER.               "| lolcat
 echo -e "===========================================" | lolcat
-echo -e "   Script by YUSUF-ARDIANSYAH            "| lolcat
 myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
 echo -e "   Config OVPN:                          "| lolcat
 echo -e "   http://$myip:8090/client.tar          " | lolcat
@@ -53,9 +52,7 @@ function delete_user(){
 }
 
 function expired_users(){
-echo "                      _\|/_      "| lolcat
-echo "                      (o o)      "| lolcat
-echo "-------------------o00-{_}-00o---"| lolcat
+echo "---------------------------------"| lolcat
 echo "BIL  USERNAME          EXPIRED "| lolcat
 echo "---------------------------------"| lolcat
 count=1
@@ -183,14 +180,13 @@ echo "" | lolcat
 echo "" | lolcat
 echo "" | lolcat
 echo "" | lolcat
-echo "        ----[SELAMAT DATANG DI VPS YUSUF-ARDIANSYAH]---"| boxes -d dog | lolcat
-echo "        ====================================================="| lolcat
-echo "        #           WhatsApp     : 082139743432             #"| lolcat
-echo "        #           Telegram     : @ScriptVps               #"| lolcat
-echo "        #           Facebook     : fb.com/t34mh4ck3r        #"| lolcat
-echo "        #           Pin-BBM      : yu-suf                   #"| lolcat
+echo "        ----[SELAMAT DATANG DI VPS Thethemith Virgo]---"| boxes -d dog | lolcat
+echo "        ================================================i===="| lolcat
+echo "        #           WhatsApp     : 085708173517             #"| lolcat
+echo "        #           Facebook     : fb.com/thethemith        #"| lolcat
+echo "        #           Pin-BBM      : D2C54FDA                 #"| lolcat
 echo "        #                                                   #"| lolcat
-echo "        #        Copyright © YUSUF-ARDIANSYAH™  2017        #"| lolcat
+echo "        #        Copyright © BEGAL_ELITE-TEAM   2017        #"| lolcat
 echo "        ====================================================="| lolcat
 echo ""
 PS3='Silahkan ketik nomor pilihan anda lalu tekan ENTER: '
@@ -248,8 +244,7 @@ do
 	    service dropbear restart
 	    echo "AUTO KILL SUDAH AKTIFKAN"| lolcat
 	    
-	echo "Dasar pelit!!! user ente marah2 jangan salahkan ane ya boss
-	nanti jangan lupa di matikan boss" | boxes -d boy | lolcat
+	echo "Udah di kill bos....aman dah" | boxes -d boy | lolcat
 		break
 		;;
 	"Matikan Kill Multi Login")
@@ -281,13 +276,13 @@ do
 		read -p "Ketik user yang akan di ganti passwordnya: " uname
 		read -p "Silahkan isi passwordnya: " pass
 		echo "$uname:$pass" | chpasswd
-		echo "Mantaffff gan!!! Password $uname user ente sudah di ganti..."| boxes -d peek | lolcat
+		echo "Sukses gan!!! Password $uname user ente sudah di ganti..."| boxes -d peek | lolcat
 		break
 		;;
 		"Ganti Password VPS")
 		read -p "Silahkan isi password baru untuk VPS anda: " pass	
 		echo "root:$pass" | chpasswd
-		echo "Ciieeee.. ciieeeeeee.. abis ganti password VPS ni yeeee...!!!"| boxes -d boy | lolcat
+		echo "Ganti PW VPS ente sukses gan !!!"| boxes -d boy | lolcat
 			break
 			;;
 		"Used Data By Users")

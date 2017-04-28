@@ -12,7 +12,7 @@ if [ $USER != 'root' ]; then
 	exit
 fi
 echo "
-AUTOSCRIPT BY YUSUF-ARDIANSYAH
+AUTOSCRIPT BY BEGAL_ELITE-TEAM
 
 PLEASE CANCEL ALL PACKAGE POPUP
 
@@ -277,7 +277,7 @@ rm ./debian7x64.sh
 
 #clear
 echo "========================================"  
-echo "Service Autoscript VPS YUSUF-ARDIANSYAH" | lolcat 
+echo "Service Autoscript VPS BEGAL_ELITE-TEAM" | lolcat 
 echo "----------------------------------------" | lolcat
 echo ""  | tee -a log-install.txt
 echo "Webmin   : http://$myip:10000/" | lolcat
@@ -298,7 +298,7 @@ echo "Tambahan Script: Otomatis Reboot 24 Jam sekali" | lolcat
 echo "----------------------------------------"| lolcat
 echo "LOG INSTALL  --> /root/log-install.txt"| lolcat
 echo "----------------------------------------"| lolcat
-echo " CREATED BY YUSUF-ARDIANSYAH - JUAL AKUN SSH - VPS - SCRIPT INSTALLER PREMIUM"| lolcat
+echo " POWERED BY BEGAL_ELITE-TEAM PREMIUM 2017"| lolcat
 echo "========================================"  | tee -a log-install.txt
 echo "      SILAHKAN REBOOT VPS ANDA !" | lolcat
 echo "========================================"  | tee -a log-install.txt

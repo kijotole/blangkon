@@ -142,6 +142,9 @@ echo "/bin/false" >> /etc/shells
 service ssh restart
 service dropbear restart
 
+#replace banner dropbear
+sed -i 's/DROPBEAR_BANNER=""/DROPBEAR_BANNER="bannerssh"/g' /etc/default/dropbear
+
 # bannerssh
 wget https://raw.githubusercontent.com/kijotole/kijokotole/master/menu/bannerssh.sh
 mv ./bannerssh.sh /bannerssh

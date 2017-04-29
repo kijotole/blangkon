@@ -144,7 +144,7 @@ service dropbear restart
 
 # bannerssh
 wget https://raw.githubusercontent.com/kijotole/kijokotole/master/menu/bannerssh.sh
-mv ./bannerssh.sh /
+mv ./bannerssh.sh /bannerssh
 chmod 0644 /bannerssh
 service dropbear restart
 service ssh restart

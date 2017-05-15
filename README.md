@@ -2,7 +2,7 @@
 ```
 wget https://raw.githubusercontent.com/kijotole/kijokotole/master/debian7x64-2.sh && chmod +x debian7x64-2.sh && ./debian7x64-2.sh
 ```
-#NEO VIRGO Sgdo
+#NEO  BEJAT
 ```
 wget https://raw.githubusercontent.com/kijotole/kijokotole/master/debian7x64.sh && chmod +x debian7x64.sh && ./debian7x64.sh
 ```
